@@ -9,3 +9,12 @@ print(f"Suma: {num1 + num2}")
 print(f"Resta: {num1 - num2}")
 print(f"Multiplicacion: {num1 * num2}")
 print(f"Divicion: {Divicion}")
+
+print("Par o Impar")
+
+num = int(input("Ingrese un numero: "))
+
+if num % 2 == 0:
+    print(f"El numero {num} es PAR.")
+else:
+    print(f"El numero {num} es IMPAR.")
